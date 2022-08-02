@@ -2,12 +2,13 @@
 
 :root {
     --primary-color: #F9A826;
-    --off-yellow: #fefce8;
+    --off-white: #f3f4f6;
     --dark-gray: #64748b;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
+    margin: 0px;
 }
 
 /* container */
@@ -94,6 +95,7 @@ hr {
 .hero .hero-heading {
     color: var(--dark-gray);
     padding-top: 1rem;
+    text-align: center;
 }
 
 .hero .hero-heading .heading-inverted {
@@ -101,13 +103,36 @@ hr {
 }
 
 .section{
-    padding: 2rem;;
+    padding-bottom: 2rem;;
 }
 .section h1 {
     text-align: center;
     padding: 2rem;
 }
 
-.oy{
-    background-color: var(--off-yellow);
+.ow{
+    background-color: var(--off-white);
+}
+
+/* footers */
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 2rem;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.footer .link{
+    color: white;
 }
