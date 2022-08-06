@@ -18,7 +18,7 @@ body {
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 900px;
     margin: auto;
 }
 
@@ -30,13 +30,13 @@ body {
 
 .link-primary {
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     color: white;
 }
 
 .link-secondary {
     color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     border: 1px solid var(--primary-color);
 }
 
@@ -84,6 +84,7 @@ hr {
 
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
@@ -135,4 +136,18 @@ hr {
 
 .footer .link{
     color: white;
+}
+
+/* spaces */
+
+.margin-top{
+    margin-top: 5rem;
+}
+
+.margin-bottom{
+    margin-bottom: 5rem;
+}
+
+.text-center{
+    text-align: center;
 }
